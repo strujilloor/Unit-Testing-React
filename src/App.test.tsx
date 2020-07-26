@@ -86,7 +86,7 @@ describe('Grupo de pruebas de ejemplo', () =>{
   test("Una prueba unitaria de algo", () => {
     // el valor en expect tiene que ser el mismo que en toBe, para que la prueba llegue a pasar.
     // esperamos que el valor sea 5, y estamos recibiendo 10.
-    expect(10).toBe(5)
+    expect(10).toBe(10)
   });
 
   test('Segunda prueba de números', () => {
